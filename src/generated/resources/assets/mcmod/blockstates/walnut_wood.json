@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mcmod:block/walnut_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "mcmod:block/walnut_wood"
+    },
+    "axis=z": {
+      "model": "mcmod:block/walnut_wood_horizontal",
+      "x": 90
+    }
+  }
+}

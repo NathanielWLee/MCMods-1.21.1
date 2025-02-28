@@ -1,0 +1,46 @@
+{
+  "chisel_use": {
+    "subtitle": "sounds.mcmod.chisel_use",
+    "sounds": [
+      "mcmod:chisel_use"
+    ]
+  },
+  "magic_block_break": {
+    "subtitle": "sounds.mcmod.magic_block_break",
+    "sounds": [
+      "mcmod:magic_block_break"
+    ]
+  },
+  "magic_block_step": {
+    "subtitle": "sounds.mcmod.magic_block_step",
+    "sounds": [
+      "mcmod:magic_block_step"
+    ]
+  },
+  "magic_block_place": {
+    "subtitle": "sounds.mcmod.magic_block_place",
+    "sounds": [
+      "mcmod:magic_block_place"
+    ]
+  },
+  "magic_block_hit": {
+    "subtitle": "sounds.mcmod.magic_block_hit",
+    "sounds": [
+      "mcmod:magic_block_hit"
+    ]
+  },
+  "magic_block_fall": {
+    "subtitle": "sounds.mcmod.magic_block_fall",
+    "sounds": [
+      "mcmod:magic_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "mcmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}
