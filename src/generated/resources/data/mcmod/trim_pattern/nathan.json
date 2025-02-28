@@ -1,0 +1,8 @@
+{
+  "asset_id": "mcmod:nathan",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.mcmod.nathan"
+  },
+  "template_item": "mcmod:nathan_armor_trim_smithing_template"
+}

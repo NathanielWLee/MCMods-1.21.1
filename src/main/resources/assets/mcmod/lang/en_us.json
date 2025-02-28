@@ -1,0 +1,115 @@
+{
+  "item.mcmod.alexandrite": "Alexandrite Gem",
+  "item.mcmod.raw_alexandrite": "Raw Alexandrite",
+
+  "item.mcmod.chisel": "Chisel",
+  "item.mcmod.kohlrabi": "Kohlrabi",
+  "item.mcmod.aurora_ashes": "Aurora Ashes",
+
+  "item.mcmod.alexandrite_sword": "Alexandrite Sword",
+  "item.mcmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.mcmod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.mcmod.alexandrite_axe": "Alexandrite Axe",
+  "item.mcmod.alexandrite_hoe": "Alexandrite Hoe",
+
+  "item.mcmod.alexandrite_hammer": "Alexandrite Hammer",
+
+  "item.mcmod.alexandrite_helmet": "Alexandrite Helmet",
+  "item.mcmod.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.mcmod.alexandrite_leggings": "Alexandrite Leggings",
+  "item.mcmod.alexandrite_boots": "Alexandrite Boots",
+
+  "item.mcmod.alexandrite_horse_armor": "Alexandrite Horse Armor",
+  "item.mcmod.nathan_armor_trim_smithing_template": "Nathan Trim Template",
+
+  "item.mcmod.nathan_bow": "Nathan Bow",
+
+  "item.mcmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.mcmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
+  "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
+  "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
+  "item.mcmod.kohlrabi_seeds": "Kohlrabi Seeds",
+  "item.mcmod.honey_berries": "Honey Berries",
+
+  "item.mcmod.triceratops_spawn_egg": "Triceratops Spawn Egg",
+  "item.mcmod.tomahawk": "Tomahawk",
+
+  "item.mcmod.radiation_staff": "Radiation Staff",
+
+
+  "block.mcmod.alexandrite_block": "Block of Alexandrite",
+  "block.mcmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.mcmod.alexandrite_ore": "Alexandrite Ore",
+  "block.mcmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+
+  "block.mcmod.alexandrite_end_ore": "Alexandrite End Ore",
+  "block.mcmod.alexandrite_nether_ore": "Alexandrite Nether Ore",
+
+  "block.mcmod.walnut_log": "Walnut Log",
+  "block.mcmod.walnut_planks": "Walnut Planks",
+  "block.mcmod.walnut_wood": "Walnut Wood",
+  "block.mcmod.stripped_walnut_log": "Stripped Walnut Log",
+  "block.mcmod.stripped_walnut_wood": "Stripped Walnut Wood",
+  "block.mcmod.walnut_leaves": "Walnut Leaves",
+
+  "block.mcmod.walnut_sapling": "Walnut Sapling",
+
+
+  "block.mcmod.magic_block": "Magic Block",
+
+  "block.mcmod.alexandrite_stairs": "Alexandrite Stairs",
+  "block.mcmod.alexandrite_slab": "Alexandrite Slab",
+
+  "block.mcmod.alexandrite_button": "Alexandrite Button",
+  "block.mcmod.alexandrite_pressure_plate": "Alexandrite Pressure Plate",
+
+  "block.mcmod.alexandrite_fence": "Alexandrite Fence",
+  "block.mcmod.alexandrite_fence_gate": "Alexandrite Fence Gate",
+  "block.mcmod.alexandrite_wall": "Alexandrite Wall",
+
+  "block.mcmod.alexandrite_door": "Alexandrite Door",
+  "block.mcmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
+
+  "block.mcmod.alexandrite_lamp": "Alexandrite Lamp",
+
+  "block.mcmod.kohlrabi_crop": "Kohlrabi Crop",
+  "block.mcmod.honey_berry_bush": "Honey Berry Bush",
+
+  "block.mcmod.chair": "Chair",
+  "block.mcmod.pedestal": "Pedestal",
+
+
+  "entity.minecraft.villager.mcmod.nathanger": "Nathanger",
+
+
+  "effect.mcmod.slimey": "Slimey",
+
+  "painting.mcmod.world.title": "World",
+  "painting.mcmod.world.author": "NanoAttack",
+  "painting.mcmod.shrimp.title": "Shrimp",
+  "painting.mcmod.shrimp.author": "NanoAttack",
+  "painting.mcmod.saw_them.title": "Saw Them",
+  "painting.mcmod.saw_them.author": "NanoAttack",
+
+
+  "enchantment.mcmod.lightning_striker": "Lightning Striker",
+
+  "creativetab.mcmod.alexandrite_items": "Alexandrite Items",
+  "creativetab.mcmod.alexandrite_blocks": "Alexandrite Blocks",
+
+  "tooltip.mcmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+
+  "tooltip.mcmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.mcmod.chisel": "Press §eShift§r for more Information!",
+
+  "tooltip.mcmod.kohlrabi": "This tastes GREAT!",
+
+  "trim_pattern.mcmod.nathan": "Nathan Armor Trim",
+  "trim_material.mcmod.alexandrite": "Alexandrite Material",
+
+  "entity.mcmod.triceratops": "Triceratops",
+  "entity.mcmod.tomahawk": "Tomahawk"
+}

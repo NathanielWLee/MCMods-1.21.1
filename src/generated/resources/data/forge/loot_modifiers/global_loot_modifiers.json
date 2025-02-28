@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "mcmod:kohlrabi_from_creeper",
+    "mcmod:kohlrabi_seeds_from_short_grass",
+    "mcmod:chisel_from_jungle_temple",
+    "mcmod:kohlrabi_seeds_to_tall_grass"
+  ],
+  "replace": false
+}
