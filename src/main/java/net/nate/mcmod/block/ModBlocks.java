@@ -2,7 +2,6 @@ package net.nate.mcmod.block;
 
 import net.nate.mcmod.MCMod;
 import net.nate.mcmod.block.custom.*;
-import net.nate.mcmod.block.custom.*;
 import net.nate.mcmod.item.ModItems;
 import net.nate.mcmod.sound.ModSounds;
 import net.nate.mcmod.worldgen.tree.ModTreeGrowers;
@@ -139,6 +138,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PEDESTAL = registerBlock("pedestal",
             () -> new PedestalBlock(BlockBehaviour.Properties.of().noOcclusion()));
+
+    public static final RegistryObject<Block> GROWTH_CHAMBER = registerBlock("growth_chamber",
+            () -> new GrowthChamberBlock(BlockBehaviour.Properties.of()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

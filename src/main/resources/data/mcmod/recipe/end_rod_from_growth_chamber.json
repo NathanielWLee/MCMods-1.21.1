@@ -1,0 +1,9 @@
+{
+  "type": "mcmod:growth_chamber",
+  "ingredient": {
+    "item": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:end_rod"
+  }
+}

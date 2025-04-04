@@ -1,0 +1,10 @@
+{
+  "type": "mcmod:growth_chamber",
+  "ingredient": {
+    "item": "mcmod:raw_alexandrite"
+  },
+  "result": {
+    "id": "mcmod:alexandrite",
+    "count": 12
+  }
+}

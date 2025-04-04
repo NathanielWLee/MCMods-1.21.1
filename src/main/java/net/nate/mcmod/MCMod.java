@@ -17,9 +17,14 @@ import net.nate.mcmod.loot.ModLootModifiers;
 import net.nate.mcmod.particle.AlexandriteParticles;
 import net.nate.mcmod.particle.ModParticles;
 import net.nate.mcmod.potion.ModPotions;
+import net.nate.mcmod.recipe.ModRecipes;
+import net.nate.mcmod.screen.ModMenuTypes;
+import net.nate.mcmod.screen.custom.GrowthChamberScreen;
+import net.nate.mcmod.screen.custom.PedestalScreen;
 import net.nate.mcmod.sound.ModSounds;
 import net.nate.mcmod.util.ModItemProperties;
 import net.nate.mcmod.villager.ModVillagers;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.ComposterBlock;
@@ -73,6 +78,9 @@ public class MCMod {
         ModLootModifiers.register(modEventBus);
         ModBlockEntities.register(modEventBus);
 
+        ModMenuTypes.register(modEventBus);
+        ModRecipes.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
@@ -116,6 +124,9 @@ public class MCMod {
             EntityRenderers.register(ModEntities.TOMAHAWK.get(), TomahawkProjectileRenderer::new);
 
             EntityRenderers.register(ModEntities.CHAIR.get(), ChairRenderer::new);
+
+            MenuScreens.register(ModMenuTypes.PEDESTAL_MENU.get(), PedestalScreen::new);
+            MenuScreens.register(ModMenuTypes.GROWTH_CHAMBER_MENU.get(), GrowthChamberScreen::new);
         }
 
         @SubscribeEvent
