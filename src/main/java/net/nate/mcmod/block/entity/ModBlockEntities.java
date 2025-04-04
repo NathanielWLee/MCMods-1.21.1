@@ -2,6 +2,7 @@ package net.nate.mcmod.block.entity;
 
 import net.nate.mcmod.MCMod;
 import net.nate.mcmod.block.ModBlocks;
+import net.nate.mcmod.block.entity.custom.GrowthChamberBlockEntity;
 import net.nate.mcmod.block.entity.custom.PedestalBlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -16,6 +17,12 @@ public class ModBlockEntities {
     public static final RegistryObject<BlockEntityType<PedestalBlockEntity>> PEDESTAL_BE =
             BLOCK_ENTITIES.register("pedestal_be", () -> BlockEntityType.Builder.of(
                     PedestalBlockEntity::new, ModBlocks.PEDESTAL.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<GrowthChamberBlockEntity>> GROWTH_CHAMBER_BE =
+            BLOCK_ENTITIES.register("growth_chamber_be", () -> BlockEntityType.Builder.of(
+                    GrowthChamberBlockEntity::new, ModBlocks.GROWTH_CHAMBER.get()).build(null));
+
+
 
     public static void register(IEventBus eventBus) {
         BLOCK_ENTITIES.register(eventBus);
